@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahra Aesthetics | Aesthetic Designs & Ideas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">✨ Zahra Aesthetics</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#designs">Designs</a></li>
+                <li><a href="#ideas">Ideas</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Zahra Aesthetics</h1>
+            <p>Elevate Your Style with Beautiful Aesthetic Designs</p>
+            <button class="cta-button" onclick="scrollToSection('designs')">Explore Now</button>
+        </div>
+    </section>
+
+    <!-- Designs Section -->
+    <section id="designs" class="designs">
+        <h2>Our Design Collections</h2>
+        <div class="design-grid">
+            <div class="design-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                <h3>Minimalist Elegance</h3>
+                <p>Clean lines and simplicity define this timeless aesthetic. Perfect for modern spaces seeking tranquility.</p>
+            </div>
+            <div class="design-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                <h3>Romantic Vibes</h3>
+                <p>Soft pastels and delicate details create a dreamy, romantic atmosphere for any space.</p>
+            </div>
+            <div class="design-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                <h3>Cool & Calm</h3>
+                <p>Serene blues and cool tones bring peace and harmony to your environment.</p>
+            </div>
+            <div class="design-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                <h3>Warm & Cozy</h3>
+                <p>Earthy tones and warm colors create an inviting, comfortable aesthetic.</p>
+            </div>
+            <div class="design-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);"></div>
+                <h3>Dark & Sophisticated</h3>
+                <p>Bold colors and dark tones bring depth and mystery to your designs.</p>
+            </div>
+            <div class="design-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"></div>
+                <h3>Pastel Dreams</h3>
+                <p>Soft, gentle colors create a whimsical and dreamy design aesthetic.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ideas Section -->
+    <section id="ideas" class="ideas">
+        <h2>Design Ideas & Tips</h2>
+        <div class="ideas-container">
+            <div class="idea-item">
+                <h3>🎨 Color Psychology</h3>
+                <p>Learn how different colors evoke emotions and set the mood for your space. From calming blues to energetic reds.</p>
+            </div>
+            <div class="idea-item">
+                <h3>🌿 Natural Elements</h3>
+                <p>Incorporate plants, wood, and natural materials to bring life and warmth to your aesthetic.</p>
+            </div>
+            <div class="idea-item">
+                <h3>✨ Lighting Design</h3>
+                <p>Master the art of lighting to create ambiance and highlight the best features of your space.</p>
+            </div>
+            <div class="idea-item">
+                <h3>📐 Spatial Arrangement</h3>
+                <p>Discover how to arrange your space for maximum visual impact and functionality.</p>
+            </div>
+            <div class="idea-item">
+                <h3>🎭 Texture & Layers</h3>
+                <p>Add depth with mixed textures and layered elements for a rich, dimensional aesthetic.</p>
+            </div>
+            <div class="idea-item">
+                <h3>🖼️ Art & Decor</h3>
+                <p>Curate artwork and decorative pieces that complement your chosen aesthetic perfectly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Design Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <div class="gallery-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);"></div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter for the latest aesthetic design trends and tips</p>
+        <form class="newsletter-form" onsubmit="handleSubscribe(event)">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="subscribe-btn">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>📧 Email: info@zahraaesthetics.com</p>
+                <p>📱 Phone: +1 (555) 123-4567</p>
+                <p>📍 Location: Creative Studio, Design District</p>
+            </div>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Zahra Aesthetics. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">Pinterest</a>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
